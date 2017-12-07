@@ -1,4 +1,4 @@
-## author Matt Blail
+## author Matt Blaul
 ## 12/6/2017
 
 ## Script to calculate the day of the week.
