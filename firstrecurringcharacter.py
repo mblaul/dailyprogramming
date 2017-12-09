@@ -4,19 +4,12 @@
 ## Script to find find recurring character in a given string
 ## Resources used: https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
 
-import re
-
-input = ["IKEUNFUVFV",
-        "PXLJOUDJVZGQHLBHGXIW",
-        '*l1J?)yn%R[}9~1"=k7]9;0[$'
-        ]
-
-for x in input:
-    print(x)
-    check = []
-    for y in x:
-        if y in check:
-            print("Match found: " + y)
-            break
+def ffrc(stringtosearch):
+    print("Entered module")
+    print(stringtosearch)
+    for x in stringtosearch:
+        check = []
+        if x in check:
+            print("Match found: " + x)
         else:
-            check.append(y)
+            check.append(x)
