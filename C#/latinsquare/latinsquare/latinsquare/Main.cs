@@ -27,7 +27,9 @@ namespace latinsquare
 
 
 
-            Console.Out.Write(intput[2]);
+            for(int i = 0; i < intput.Length; i++)
+            {
+            }
         }
     }
 }
