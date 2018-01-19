@@ -24,10 +24,13 @@ namespace latinsquare
             string[] input = "1 2 3 4 5 5 1 2 3 4 4 5 1 2 3 3 4 5 1 2 2 3 4 5 1".Split();
             int[] intput = Array.ConvertAll(input, s => int.Parse(s));
 
+            int[,] matrix = new int[length, length];
 
+            for (int i = 0; i < length; i++ )
+            {
+                matrix[i,length]
+            }
 
-
-            Console.Out.Write(intput[2]);
         }
     }
 }
